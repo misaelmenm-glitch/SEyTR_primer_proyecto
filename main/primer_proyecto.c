@@ -55,6 +55,8 @@ void app_main(void)
              (unsigned)total_lecturas, CONFIG_SEYTR_VENTANA, CONFIG_SEYTR_UMBRAL_CM);
     ESP_LOGW(TAG, "no hay sensor: las lecturas estan escritas en el programa");
 
+        otraFuncion();
+
     /* Estas dos lineas atan la configuracion con la realidad. El destino sale de
      * CONFIG_IDF_TARGET, que esta fijado en sdkconfig.defaults; los nucleos y la
      * revision los cuenta el propio chip. Si lo que sale por el monitor no es lo

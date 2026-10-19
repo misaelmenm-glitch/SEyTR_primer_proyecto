@@ -32,6 +32,8 @@ typedef struct {
 bool estadistica_resumen(const int *lecturas, size_t n,
                          estadistica_resumen_t *destino);
 
+void otraFuncion(void);
+
 #ifdef __cplusplus
 }
 #endif

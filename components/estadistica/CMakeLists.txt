@@ -1,2 +1,2 @@
-idf_component_register(SRCS "estadistica.c"
+idf_component_register(SRCS "otra.c" "estadistica.c"
                        INCLUDE_DIRS "include")
